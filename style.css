@@ -1,0 +1,38 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.stripes {
+  width: 250px;
+  height: 50px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20vh;
+}
+#orange {
+  background-color: orange;
+}
+#white {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+#green {
+  background-color: green;
+}
+img {
+  width: 20%;
+}
+#btn {
+  margin-top: 4vh;
+  background-color: yellow;
+  color: brown;
+}
+#btn:hover {
+  cursor: pointer;
+  filter: invert(1);
+}
